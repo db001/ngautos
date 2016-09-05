@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+/*
+font-family: 'Changa One', cursive;  Headling
+font-family: 'Raleway', sans-serif;  Body
+*/
+
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: 'Raleway', sans-serif;
+}
+
+/*.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}*/
+.navbar-header{
+  padding-right: 10px;
+}
+.navbar-header .navbar-brand {
+    font-family: 'Changa One', cursive;
+    margin-right: 50px;
+    color: #FF6633;
+}
+#headline h1 {
+    font-family: 'Changa One', cursive;
+}
+.well {
+  padding: 10px;
+  font-size: 1.25em;
+  border-radius: 0;
+  background-color: #000;
+  color: #FF6633;
+}
+.btn {
+  background-color: #FF6633;
+  color: #000;
+}
+.btn:hover {
+  background-color: #000;
+  color: #FF6633;
+}
+.content {
+  margin: 10px;
+}
+.not-displayed {
+  display: none;
+}
+#about, #services, #find {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-top: 25px;
+  padding: 0 25px 25px 25px;
+}
+#about div{
+  display: flex;
+  align-items: center;
+}
+#about img {
+  height: 100px;
+  margin: 35px;
+}
+.map-container {
+    position: relative;
+    padding-bottom: 75%;
+    /* padding-top: 35px;  Specific for youtube videos only */
+    height: 0;
+    overflow: hidden;
+}
+.map-container iframe {
+    position: absolute;
+    top:0;
+    left: 12.5%;
+    width: 75%;
+    height: 75%;
+}
+footer {
+    padding: 30px 0 15px 0;
+    margin-left: 20px;
+}
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
