@@ -1,21 +1,21 @@
 $(document).ready(function() {
+  var mapShown = false;
 
-  $('.more-about').on('click', function() {
-    $('#services').fadeOut("fast");
-    $('#find').fadeOut("fast");
-    $('#about').fadeIn("fast");
+  $('#mapClick').on('click', function() {
+    if (!mapShown) {
+      $('.google-maps').removeClass('hidden');
+      $('#mapClose').removeClass('hidden');
+      mapShown = true;
+      var mapScroll = $("a[name='map']");
+      $('html, body').animate({scrollTop: mapScroll.offset().top}, 'slow');
+    };
   });
 
-  $('.more-services').on('click', function() {
-    $('#about').fadeOut("fast");
-    $('#find').fadeOut("fast");
-    $('#services').fadeIn("fast");
+  $('#mapClose').on('click', function() {
+    if (mapShown) {
+      $('.google-maps').addClass('hidden');
+      $('#mapClose').addClass('hidden');
+      mapShown = false;
+    };
   });
-
-  $('.more-find').on('click', function() {
-    $('#about').fadeOut("fast");
-    $('#services').fadeOut("fast");
-    $('#find').fadeIn("fast");
-  });
-
 });
