@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -8,90 +8,90 @@ body {
     color: #f24333;
 }
 .navbar {
-  background-color: #000;
+    background-color: #000;
 }
 a.navbar-brand {
     font-family: 'Changa One', cursive;
 }
-navbar-header > navbar-brand {
-  color: #f24333;
+navbar-header> navbar-brand {
+    color: #f24333;
 }
 #heading {
-  position: absolute;
-  top: 15px;
-  left: 55px;
+    position: absolute;
+    top: 15px;
+    left: 55px;
 }
 @media only screen and (min-width: 768px) {
-  #heading {
-    top: 125px;
-    left: 125px;
-    font-size: 2em;
-  }
-  #jumboHeader {
-    font-size: 4em;
-  }
+    #heading {
+        top: 125px;
+        left: 125px;
+        font-size: 2em;
+    }
+    #jumboHeader {
+        font-size: 4em;
+    }
 }
 img {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 #jumboHeader {
-  top: 25px;
-  right: 25px;
-  font-family: 'Changa One', cursive;
-  text-shadow: 0px 0px 4px #000;
+    top: 25px;
+    right: 25px;
+    font-family: 'Changa One', cursive;
+    text-shadow: 0px 0px 4px #000;
 }
 #jumbo .container p {
-  color: #fff;
-  text-shadow: 0px 0px 3px #000;
+    color: #fff;
+    text-shadow: 0px 0px 3px #000;
 }
 i {
-  color: #f24333;
+    color: #f24333;
 }
 #content {
-  margin: 0;
-  padding: 0;
-  padding-top: 30px;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
 }
 #content div {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 #content div h3 {
-  text-align: center;
+    text-align: center;
 }
 #content div p {
-  text-align: center;
-  padding: 10px 25px;
-  color: #f24333;
+    text-align: center;
+    padding: 10px 25px;
+    color: #f24333;
 }
 .logo {
-  margin: auto;
+    margin: auto;
 }
 .lg-black {
-  color: #000;
+    color: #000;
 }
 #mapClick:hover {
-  background-color: #f24333;
-  color: #000;
+    background-color: #f24333;
+    color: #000;
 }
 .hidden {
-  display: none;
+    display: none;
 }
 #mapClose {
-  cursor: pointer;
+    cursor: pointer;
 }
 .google-maps {
-  position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
-  height: 0;
-  overflow: hidden;
-  margin: 10px;
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    margin: 10px;
 }
 .google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
