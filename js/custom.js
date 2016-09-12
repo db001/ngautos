@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   var mapShown = false;
 
   $('#mapClick').on('click', function() {
@@ -18,4 +19,8 @@ $(document).ready(function() {
       mapShown = false;
     };
   });
+
+  if (document.documentElement.clientWidth < 768) {
+    $('.logo').removeClass('fa-3x').addClass('fa-2x');
+  };
 });
