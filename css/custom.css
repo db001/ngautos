@@ -46,13 +46,13 @@ img {
     text-shadow: 0px 0px 3px #000;
 }
 .well {
-  height: 60px;
-  background-color: #000;
-  border: none;
-  font-weight: bolder;
+    height: 60px;
+    background-color: #000;
+    border: none;
+    font-weight: bolder;
 }
 #headline {
-  display: none;
+    display: none;
 }
 i {
     color: #f24333;
@@ -80,15 +80,24 @@ i {
 .lg-black {
     color: #000;
 }
+.customBtn {
+  cursor: pointer;
+}
+.customBtn:hover {
+  color: #000;
+  background-color: #f24333;
+}
 #mapClick:hover {
-    background-color: #f24333;
-    color: #000;
+  color: #000;
 }
-.hidden {
-    display: none;
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(242, 67, 51, 0), rgba(242, 67, 51, 0.75), rgba(242, 67, 51, 0));
 }
-#mapClose {
-    cursor: pointer;
+#about img {
+    width: 100px;
+    height: auto;
 }
 .google-maps {
     position: relative;
