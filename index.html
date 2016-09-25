@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>NG Autos</title>
 
@@ -28,10 +28,8 @@
 
 <body>
 
-
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
+    <nav id="navbar-main" class="navbar navbar-inverse navbar-top navbar-fixed-top">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -39,20 +37,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">NG Autos</a>
+                <a class="navbar-brand" href="#">
+                    <div><span>NG Autos</span></div>
+                </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Find us</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Find Us</a></li>
+                </ul>
+            </div>
         </div>
-        <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
     </nav>
+
 
     <div id="jumbo">
         <img src="./images/dashboard.jpg" class="img-responsive">
@@ -80,8 +78,8 @@
           <i class="fa fa-car fa-stack-1x lg-black" aria-hidden="true"></i>
         </span>
             <h3>About</h3>
-            <p>NG Autos is an indendent garage who offer a friendly reliable service.</p>
-            <p>Started XX years ago by Nick, an Alfa Romeo specialist with over XX years expereince and qualified MOT tester, and Gary, Audi VW Master Technician with over XX years in the industry.
+            <p>NG Autos is an independant garage who offer a friendly reliable service.</p>
+            <p>Started XX years ago by Nick, an Alfa Romeo specialist with over XX years experience and qualified MOT tester, and Gary, Audi VW Master Technician with over XX years in the industry.
             </p>
         </div>
         <div class="clearfix visible-xs-block"></div>
@@ -149,6 +147,24 @@
                 <p>NG Autos tri-tip andouille strip steak doner, t-bone pastrami. Ham hock brisket tenderloin pastrami bresaola. Landjaeger ham hock boudin, sausage pig brisket rump kielbasa doner short ribs pork chop shank bacon leberkas prosciutto. Biltong
                     beef venison bresaola doner shank bacon sirloin alcatra.</p>
             </div>
+        </div>
+
+        <hr>
+
+        <div id="services" class="container">
+            <h3>Services & Prices</h3>
+            <div class="col-md-6 col-xs-12">
+            <p>Diagnotics & Servicing
+                <br> MOT testing & repairs
+                <br> Brakes, suspension & gearboxes
+                <br> Cambelt & head gasket replacement
+                <br> Breakdown & Recovery
+                <br> Collection & Delivery</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <p>MOTs from £39 with a free retest within 10 days</p>
+                <p>Aircon check and re-gas £59</p>
+              </div>
         </div>
 
         <hr>
