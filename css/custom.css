@@ -13,8 +13,18 @@ body {
 a.navbar-brand {
     font-family: 'Changa One', cursive;
 }
-navbar-header> navbar-brand {
+.navbar-header > .navbar-brand {
     color: #f24333;
+}
+.navbar-header > .navbar-brand:visited {
+    color: #f24333;
+}
+/*
+div.navbar-collapse ul.nav li.navLink a:hover {
+  color: #f24333;
+} */
+.navLink > #aboutClick:hover, .navLink > #serviceClick:hover, .navLink > #mapClick:hover {
+  color: #f24333;
 }
 #heading {
     position: absolute;
@@ -29,6 +39,12 @@ navbar-header> navbar-brand {
     }
     #jumboHeader {
         font-size: 4em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #heading {padding-top: 50px;}
+    footer {
+      font-size: 0.8em;
     }
 }
 img {
@@ -80,14 +96,17 @@ i {
 .lg-black {
     color: #000;
 }
-.customBtn {
+.customBtn, .navbar-brand {
   cursor: pointer;
 }
 .customBtn:hover {
   color: #000;
   background-color: #f24333;
 }
-#mapClick:hover {
+#mapClick:hover, #serviceClick:hover, #aboutClick:hover {
+  color: #000;
+}
+#mapClick2:hover, #serviceClick2:hover, #aboutClick2:hover {
   color: #000;
 }
 hr {
@@ -112,4 +131,11 @@ hr {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+footer {
+  padding: 15px;
+  padding-right: 30px;
+  background-color: #111;
+  margin-top: 15px;
+  text-align: right;
 }

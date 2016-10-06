@@ -7,6 +7,49 @@ $(document).ready(function() {
         }, 'slow');
     });
 
+    $("#aboutClick").on('click', function() {
+        var mapScroll = $("a[name='about']");
+        $('html, body').animate({
+            scrollTop: mapScroll.offset().top
+        }, 'slow');
+    });
+
+    $("#serviceClick").on('click', function() {
+        var mapScroll = $("a[name='service']");
+        $('html, body').animate({
+            scrollTop: mapScroll.offset().top
+        }, 'slow');
+    });
+
+    $("#mapClick2").on('click', function() {
+        var mapScroll = $("a[name='map']");
+        $('html, body').animate({
+            scrollTop: mapScroll.offset().top
+        }, 'slow');
+    });
+
+    $("#aboutClick2").on('click', function() {
+        var mapScroll = $("a[name='about']");
+        $('html, body').animate({
+            scrollTop: mapScroll.offset().top
+        }, 'slow');
+    });
+
+    $("#serviceClick2").on('click', function() {
+        var mapScroll = $("a[name='service']");
+        $('html, body').animate({
+            scrollTop: mapScroll.offset().top
+        }, 'slow');
+    });
+
+    $("#homeLink").on('click', function() {
+        var mapScroll = $("a[name='home']");
+        $('html, body').animate({
+            scrollTop: mapScroll.offset().top
+        }, 'slow');
+    });
+
+
     if (document.documentElement.clientWidth < 768) {
         $('.logo').removeClass('fa-3x').addClass('fa-2x');
     };
