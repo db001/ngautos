@@ -7,25 +7,6 @@ body {
     background-color: #000;
     color: #f24333;
 }
-.navbar {
-    background-color: #000;
-}
-a.navbar-brand {
-    font-family: 'Changa One', cursive;
-}
-.navbar-header > .navbar-brand {
-    color: #f24333;
-}
-.navbar-header > .navbar-brand:visited {
-    color: #f24333;
-}
-/*
-div.navbar-collapse ul.nav li.navLink a:hover {
-  color: #f24333;
-} */
-.navLink > #aboutClick:hover, .navLink > #serviceClick:hover, .navLink > #mapClick:hover {
-  color: #f24333;
-}
 #heading {
     position: absolute;
     top: 15px;
@@ -60,12 +41,6 @@ img {
 #jumbo .container p {
     color: #fff;
     text-shadow: 0px 0px 3px #000;
-}
-.well {
-    height: 60px;
-    background-color: #000;
-    border: none;
-    font-weight: bolder;
 }
 #headline {
     display: none;

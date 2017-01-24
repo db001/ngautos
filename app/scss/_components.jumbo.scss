@@ -1,0 +1,26 @@
+.heading {
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    h1 {
+        font-size: 48px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        line-height: 20px;
+    }
+    @media only screen and (min-width: 768px) {
+        h1 {
+            font-size: 72px;
+        }
+        h3 {
+            font-size: 48px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+}

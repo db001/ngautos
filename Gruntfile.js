@@ -25,11 +25,11 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          sourcemap: 'none',
-          files: {
-          // destination          // source file
-            "app/css/styles.css" : "app/scss/styles.scss"
-          }
+          sourcemap: 'none'
+        },
+        files: {
+        // destination          // source file
+          "app/css/styles.css" : "app/scss/styles.scss"
         }
       }
     },
@@ -62,4 +62,4 @@ module.exports = function(grunt) {
 
 };
 
-// broswerSync localhost:3000
+// browserSync localhost:3000

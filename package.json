@@ -10,7 +10,7 @@
   "license": "ISC",
   "repository": {
       "type": "git",
-      "url": ""
+      "url": "https://github.com/db001/ngautos"
   },
   "devDependencies": {
     "eslint": "^3.13.0",
