@@ -1,7 +1,23 @@
+.jumbo {
+    height: 400px;
+    width: 100%;
+    background: url(../images/engine.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+@media only screen and (min-width: 768px) {
+    .jumbo {
+        height: 500px;
+    }
+}
+
 .heading {
     position: absolute;
     top: 55px;
-    left: 55px;
+    left: 55px;    
     h1 {
         font-size: 48px;
     }

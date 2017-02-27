@@ -48,12 +48,7 @@ table {
   border-spacing: 0; }
 
 html {
-  box-sizing: border-box;
-  background: url(../images/engine.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  box-sizing: border-box; }
 
 body {
   font-family: "Fira Sans Condensed", sans-serif;
@@ -63,6 +58,18 @@ h1, h3 {
   font-family: "Changa One", cursive;
   color: #f24333; }
 
+.jumbo {
+  height: 400px;
+  width: 100%;
+  background: url(../images/engine.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+@media only screen and (min-width: 768px) {
+  .jumbo {
+    height: 500px; } }
 .heading {
   position: absolute;
   top: 55px;
@@ -82,11 +89,21 @@ h1, h3 {
       font-size: 24px;
       line-height: 36px; } }
 
+.googlemap {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0; }
+  .googlemap iframe {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
 footer {
   background-color: black;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
   width: 100%;
   padding: 10px 0; }
   footer p {
